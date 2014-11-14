@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/green_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+        <RadioGroup
+            android:id="@+id/group_query"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <RelativeLayout 
+                android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioButton
+            android:id="@+id/title_all"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_all"
+            android:checked="true"
+            android:textColor="@drawable/selector_radio"
+            android:gravity="center"
+           android:button="@null"  
+            android:background="@drawable/selector_title" 
+           />
+        <RadioButton
+            android:id="@+id/title_in"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/title_all"
+            android:layout_alignBaseline="@+id/title_all"
+            android:layout_centerVertical="true"
+            android:text="@string/title_in"
+           android:button="@null"  
+           android:textColor="@drawable/selector_radio"
+            android:gravity="center"
+            android:background="@drawable/selector_title" 
+            />
+        <RadioButton
+            android:id="@+id/title_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/title_all"
+            android:layout_alignBaseline="@+id/title_all"
+            android:layout_centerVertical="true"
+            android:text="@string/title_out"
+            android:button="@null"  
+            android:textColor="@drawable/selector_radio"
+            android:gravity="center"
+            android:background="@drawable/selector_title" />
+        </RelativeLayout>
+          </RadioGroup>
+</LinearLayout>
+
+

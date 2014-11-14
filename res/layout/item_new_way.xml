@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	android:id="@+id/rl_new_way"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+      	android:id="@+id/ll_way"
+      	style="@style/Ly_NewItemTheme"
+        android:layout_marginBottom="5dp">
+
+   		 <TextView
+   		     android:id="@+id/tv_way"
+   		     style="@style/Tv_NewItemTheme"
+   		     android:gravity="center"
+   		     android:text="@string/tv_way"/>
+   		 
+         <EditText
+             android:id="@+id/edit_way"
+        style="@style/Edit_NewItemTheme"
+         />
+</LinearLayout>     
+<LinearLayout
+      	android:id="@+id/ll_number"
+      	style="@style/Ly_NewItemTheme"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/ll_way">
+
+   		 <TextView
+   		     android:id="@+id/tv_number"
+   		     style="@style/Tv_NewItemTheme"
+   		     android:gravity="center"
+   		     android:text="@string/tv_number"/>
+   		 
+         <EditText
+        android:id="@+id/edit_number"
+        style="@style/Edit_NewItemTheme"
+        android:inputType="number"
+        android:hint="@string/hint_edit_way"
+         />
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:layout_below="@+id/ll_number"
+	android:layout_marginTop="5dp">
+         <RelativeLayout 
+             android:layout_width="0dp"
+             android:layout_height="35dp"
+             android:layout_weight="1">
+<ImageButton
+    android:id="@+id/iv_delete_item"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/delete"
+    android:layout_centerInParent="true"
+    android:src="@null" />
+</RelativeLayout>
+ <RelativeLayout
+             android:layout_width="0dp"
+             android:layout_height="35dp"
+             android:layout_gravity="center"
+             android:layout_weight="1">
+
+     <ImageButton
+         android:id="@+id/iv_add_way"
+         android:layout_width="35dp"
+         android:layout_height="35dp"
+         android:layout_centerInParent="true"
+         android:background="@drawable/add_way"
+         android:gravity="center"
+         android:src="@null" />
+
+</RelativeLayout>
+</LinearLayout>
+</RelativeLayout>

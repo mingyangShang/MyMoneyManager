@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+   <color name="green_app">#2B7237</color>
+   <color name="seashell">#FFF5EE</color><!--海贝色 -->
+   <color name="lavenderblush">#FFF0F5</color><!--淡紫红 -->
+   <color name="gray">#808080</color><!--灰色 -->
+   <color name="black">#000000</color><!--黑色 -->
+   <color name="darkgray">#A9A9A9</color><!--暗灰色 -->
+   <color name="white">#22ffffff</color>
+   <color name="text_green">#dd00ff99</color>
+   <color name="spinner_light_green">#00ffdd</color>
+    <color name="gesture_background">#ff303237</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="title_back">#39b7e5</color>
+    <color name="title_back_alpha">#8839b7e5</color>
+    <color name="alpha_color">#55ffeeee</color>
+
+    <drawable name="trans">@color/color_hei_8</drawable>
+   
+   
+   
+   
+</resources>
+    

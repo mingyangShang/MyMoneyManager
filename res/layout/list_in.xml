@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <me.maxwin.view.XListView
+        android:id="@+id/list_in"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:fastScrollEnabled="true"
+        android:listSelector="@android:color/transparent" >
+    </me.maxwin.view.XListView>
+
+</FrameLayout>
